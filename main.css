@@ -1,0 +1,551 @@
+@font-face {
+    font-family: Gothic;
+    src: url(/fonts/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: Perpetua;
+    src: url(/fonts/unicode.perpetua.ttf);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: #A7A275;
+    height: 110px;
+    top: 0px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 9%;
+    height: 9%;
+}
+
+.navlist{
+    display: flex;
+    float: right;
+    list-style: none;
+    
+}
+
+.navlist2{
+    display: inline-block;
+    margin: 30px 20px 0 20px;
+    
+}   
+
+.navlist2 a{
+    text-decoration: none;
+    font-family: Montserrat ;
+    font-size: 18;
+    text-transform: uppercase;
+    color: white;
+}
+
+.booking{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.booking a{
+    color: #A7A275;
+    font-weight:bold;
+}
+
+.language{
+    margin-top: 29px;
+    margin-right: 50px;
+}
+
+.language a{
+    font-size: 12px;
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.welcome  img{
+    top: 50px;
+    width: 100%;
+    height: 770px;
+}
+
+.rectangletext{
+    position: absolute;
+    text-align: center;
+    height: 45px;
+    width: 540px;
+    background-color: #A7A275;
+    opacity: 76%;
+    border-radius: 17px;
+    top: 14%;
+    left: 36%;
+}
+
+.welcometext{
+    position: absolute;
+    top: 16.5%;
+    left: 50%;
+    font-family: Perpetua;
+    font-weight: 500;
+    font-style: italic;   
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+  }
+  
+.book {
+    position: absolute;
+    top: 830px;
+    margin-left: 300px;
+    width: 70%;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Gothic;
+  }
+  
+.book .input {
+    background: black;
+    padding: 20px 20px 40px 20px;
+  }
+  
+.book .search {
+    background: #A7A275;
+    width: 300px;
+    margin-top: 20px;
+    height: 75px;
+  }
+  
+.box{
+    margin-left: 40px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    background: black;
+    margin-top: 20px;
+    color: white;
+}
+
+.guest1{   
+    width: 80px;
+  }
+
+.guest2{   
+    position: absolute;
+    float: right;
+    width: 80px;
+}
+  
+.code{
+    width: 100px;
+}
+
+::placeholder {
+    color: white;
+    text-transform: capitalize;
+}
+  
+
+.search input {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .letter{
+    background-color: #E3E3E3;
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.letter h4{
+    position: absolute;
+    font-family: Gothic;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    top: 111%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letter h2{
+    position: absolute;
+    font-family: Perpetua;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: italic;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letter p{
+    position: absolute;
+    font-family: Gothic;
+    font-style: italic; 
+    letter-spacing: 2px;
+    line-height: 26px;
+    font-size: 20px;
+    width: 1000px;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letter h5{
+    position: absolute;
+    font-family: Gothic; 
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+    top: 148%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.ohrid{
+    width: 886px;
+    height: 591px;
+    background-color: #E3E3E3;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 160px;
+}
+
+.info img{
+    width: 886px;
+    height: 591px;
+    margin-top: 100px;
+    float: right;
+}
+
+.ohrid h3{
+    margin-left: 150px;
+    font-family: Perpetua;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 18pt;
+    margin-top: 130px;
+}
+
+.ohrid p{
+    margin-left: 150px;
+    font-family: Gothic;
+    line-height: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+}
+
+.ohrid h4{
+    margin-left: 150px;
+    font-family: Perpetua;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 12pt;
+    margin-top: 80px;
+}
+
+.ohrid a img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: 465px;
+    bottom: 148px;
+}
+
+.room{
+    background-color: #E3E3E3;
+    height: 840px;
+    margin-top: 45%;   
+}
+
+.room h1{
+    position: relative;
+    margin-left: 230px;
+    top: 100px;
+    font-family: Perpetua;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 40pt;
+}
+
+.room h6{
+    position: relative;
+    font-family: Perpetua;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #828282;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 290px;
+    top: 150px;
+}
+
+.room h2{
+    position: relative;
+    font-family: Perpetua;
+    font-weight: 200;
+    font-size: 32pt;
+    letter-spacing: 4px;
+    margin-left: 290px;
+    top: 140px;
+}
+
+.room p{
+    position: relative;
+    font-family: Gothic;
+    width: 650px;
+    margin-left: 290px;
+    height: 100px;
+    top: 140px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.room a img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    bottom: -2px;
+}
+
+.room h5{
+    position: relative;
+    font-family: Perpetua;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #828282;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 290px;
+    top: 180px;
+}
+
+.room .arrow1 img{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow1{
+    position: relative;
+    left: 335px;
+    top: 300px;
+}
+
+.arrow1 img{
+    transform: rotate(-45deg);     
+}
+
+.room .arrow2 img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.arrow2{
+    position: relative;
+    top: 300px; 
+    left: 270px;
+}
+
+.arrow2 img{
+    transform: rotate(135deg);
+}
+
+.room img{
+    position: relative;
+    width: 922px;
+    height: 576px;
+    float: right;
+    bottom: 38%;
+    margin-right: 20px;
+}
+
+.location h1{
+    position:absolute;
+    font-family: Perpetua;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-top: 2%;
+    font-size: 40px;
+    left: 46%;
+}
+
+.location .p1{
+    display: inline;
+    position: relative;
+    font-family: Perpetua;
+    font-size: 30px;
+    top: 130px;
+    left: 250px;
+}
+
+.location :nth-of-type(2){
+    display: inline;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    font-weight: 200;
+    font-family: Gothic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.location :nth-of-type(3){
+    display: inline;
+    position: relative;
+    font-family: Perpetua;
+    font-size: 30px;
+    left: 23%;
+    top: 130px;
+}
+
+.location :nth-of-type(4){
+    display: inline;
+    position: relative;
+    left: 15%;
+    top: 150px;
+    font-weight: 200;
+    font-family: Gothic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.location :nth-of-type(5){
+    display: inline;
+    position: relative;
+    font-family: Gothic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float: right;
+    left: 650px;
+    font-weight: 400;
+    top: 110px;
+    font-size: 20px;
+}
+
+.location a img{
+    display: inline;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    float: right;
+    left: 840px;
+    top: 88px;
+}
+
+.location .map{
+    display: inline;
+    width: 827px;
+    height: 631px;
+    margin-right: 32%;
+ 
+}
+
+.merki{
+   position: relative;
+   width: 100%;
+   margin-top: 8%;
+ 
+}
+
+.footerbox{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #2A2A2A;
+}
+
+.image{
+    position: absolute;
+    left: 44.5%;
+    top: 130px;
+    width: 10%;
+    height: 16%;
+}
+
+.left{
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 50px;
+    color: white;
+    font-family: Gothic;
+    font-size: 17px;
+}
+
+.right{
+    position: absolute;
+    color: white;
+    text-align: right;
+    margin-left: 86%;
+    margin-top: 327px;
+    font-family: Gothic;
+    font-size: 17px;
+}
+
+.center a{
+    position: relative;
+    left: 870px;
+    top: 330px;
+}
+
+
+.center img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.bottom{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-family: Gothic;
+    left: 37%;
+    top: 89%;
+    font-size: 15px;
+}
+
+.bottom p{
+    margin-left: 30px;
+}
